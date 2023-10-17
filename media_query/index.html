@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>NOTÍCIAS</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>ESTUDANTE BRASILEIRO SE TORNA O PRIMEIRO JOVEM COM SÍNDROME DE DOWN A INTEGRAR O CONSELHO DA UNICEF</h2>
+            <p>
+                O jovem João Vitor de Paiva Bittencourt, de 22 anos, é estudante e influencer.
+                A primeira carreira é promissora para ele, que é apaixonado por esportes.
+                A segunda, por sua vez, já lhe rendeu frutos de forma inesperada: 
+                ele fez sucesso nas redes meio sem esperar, e de forma igualmente surpreendente, ele se tornou o primeiro jovem com síndrome de down no conselho do Fundo das Nações Unidas para a Infância (Unicef) no Brasil.
+            </p>
+            <p>
+                As redes sociais ajudaram João a ter a visibilidade que fez com que ele fosse escolhido pela Unicef.
+                A onda de fama começou cinco meses atrás, quando ele decidiu postar um vídeo da rotina dele chegando na universidade onde estuda.
+                Ele gravou, e quando chegou à noite, postou na internet.
+            </p>
+            <p>
+                O resultado foi muito maior que o esperado.
+                Com a postagem, João viralizou instantaneamente: passou de 500 para 15 mil seguidores em apenas um dia.
+                Agora, ele tem a rotina acompanhada por mais de 300 mil pessoas.
+                E a luta pelos direitos das pessoas com deficiência e pela inclusão social chamou a atenção.
+            </p>
+            <p class="destaque">
+                "Através dos meus vídeos, muitas pessoas com síndrome de down e outras deficiências se sentiram inspiradas e motivadas na minha luta diária", disse o jovem.
+            </p>
+            <p>
+                João Vitor se tornou um exemplo de que tudo é possível para quem tem síndrome de down.
+                Ele adora praticar basquete e musculação, e cursa o terceiro ano de educação física
+                Além disso, namora há oito meses.
+                E o sucesso lhe rendeu tem fãs famosos nas redes sociais - já gravou vídeos com a banda Titãs e a cantora e apresentadora Ivete Sangalo.
+            </p>
+            <p>
+                Agora que é conselheiro da Unicef, João adquiriu mais um compromisso para a sua agenda de influenciador:
+                reuniões mensais em Brasília com os outros 26 conselheiros do Unicef pra discutir as ações em favor dos jovens do país.
+            </p>
+            <p class="destaque">
+                "Mostrar para as famílias, para mãe e pai de crianças que me ver lá e falar assim: ‘que é ele que nós temos que ouvir’.
+                Não ser excluídos, não ser invisíveis.
+                Nós temos que ter participação", disse o jovem.
+            </p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+    <footer>
+        <p>Você pode encontrar essa notícia e muitas outras acessando o site <a href="https://g1.globo.com/jornal-hoje/noticia/2023/10/11/estudante-brasileiro-se-torna-o-primeiro-com-jovem-sindrome-de-down-a-integrar-o-conselho-da-unicef.ghtml">Globo.com</a></p>
+    </footer>
+</body>
+</html>
